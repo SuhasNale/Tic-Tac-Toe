@@ -84,7 +84,7 @@ class _TicTacToeState extends State<TicTacToe> {
             //COUNTER IS 9 AND THERE IS NO WINNER THEN DRAWN
             if ((clickCounter == 9) && gamePlay == true) {
               message = '';
-              result = 'Game Drawn.. No Winner!!';
+              result = 'Game Drawn... No Winner!!';
             }
           } else {
             message = 'Game is Either Over or Drawn';
@@ -397,7 +397,7 @@ class _TicTacToeState extends State<TicTacToe> {
                         // color: Colors.blueAccent[400],
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment. center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Text(result),
                             Text(message),
